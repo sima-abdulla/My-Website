@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+        <script src="JS/scripts.js"></script>
+    </head>
+    <body id="contact">
+        <div class="container">
+            <header class="header">
+                <a href="index.html">My first website</a>
+            </header>
+            <nav class="menu">
+                <a href="index.html">Home</a> &nbsp; &nbsp;<!-- bo dwstkrdny space ba be bakarhenany css-->
+                <a href="about.html">About</a>&nbsp; &nbsp;
+                <a href="contact.html">Contact</a>
+            </nav>
+            <aside>
+                <h1>Contact me</h1>
+            </aside>
+            <article class="main"></article>
+            <p id="if">If you have any note/message for me, please fill the gaps...</p>
+            <div id="form">
+                <form action="process.php">
+                    <p id="p1">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Your name:" required> </p>
+                    
+                    <p id="p2">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" placeholder="Your email:" required> </p>
+                    
+<!--
+                    <p id="p3">
+                    <label for="name">Password:</label>
+                    <input type="password" name="password" placeholder="Password"> </p>
+-->
+                    
+                    <p id="p4">
+                    <label for="name">Subject:</label>
+                    <input type="text" name="subject" required> </p>
+<!--                    <p>Write your message here....</p>-->
+                    <p id="p5">
+<!--                    <label for="name">Message:</label>-->
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..." required></textarea></p>
+                    <p >
+                        <input id="submit" type="submit" name="submit" value="Send Message">
+                    </p>
+                </form>
+            </div>
+            <p id="if">Also you can contact me via...</p>
+            <div id="div-s">
+            <a href="https://www.facebook.com/sima.abdulla.334" target="_blank"><img src="Images/facebook-512.png" width="40px" id="fb"></a> 
+            <a href="https://instagram.com/simaa_abdulla?igshid=5vpmtc8ossau" target="_blank"><img src="Images/c2818c6d5d111f61846fbc878bc51b5e.png" width="30px" id="insta"></a>
+            <a href="https://www.snapchat.com/add/sima_abdullla" target="_blank"><img src="Images/download.png" width="21px" id="snap"></a>
+            <a href="mailto:simaaa189@gmail.com" target="_blank"><img src="Images/airport-.gif" width="37px" id="mail"></a>
+                </div>
+            <div id="div1">
+            </div>
+            <footer>
+                &copy; 2020 Small Website. &nbsp;<span class="separator">|</span> Design by <a href="https://www.facebook.com/sima.abdulla.334" target="_blank">Sima Abdulla</a><!--span lagal  amaiana | ba tariky darakawet-->
+            </footer>
+        </div>
+    </body>
+</html>
